@@ -3596,7 +3596,7 @@
 
     #offer {
         height: max-content;
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
         display: inline-block;
         text-align: center;
         padding-bottom: 6px;
