@@ -2740,7 +2740,7 @@
 
 /* ////post//////// */
 #post {
-    height: 120vh;
+    height: 100vh;
     width: 100%;
     /* border: 1px solid black; */
 }
@@ -2780,12 +2780,13 @@
 }
 
 .post-box1 {
-    height: 90%;
+    height: max-content;
     width: 30%;
     border: 1px solid silver;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 2px 2px 30px silver;
+    padding-bottom: 23px;
 }
 
 .post-box1 img {
@@ -2824,9 +2825,10 @@
 }
 
 #insta {
-    height: 80vh;
+    height: max-content;
     width: 100%;
     /* border: 1px solid black; */
+    padding-bottom: 23px;
 }
 
 .insta-head {
@@ -2848,10 +2850,12 @@
 
 .head-ins i {
     font-size: 23px;
+    margin-top: 12px;
 }
 
 .head-ins h2 {
     font-size: 17px;
+    margin-top: 12px;
     margin-left: 12px;
 }
 
@@ -2864,7 +2868,7 @@
     width: 96%;
     /* border: 1px solid black; */
     margin: auto;
-    margin-top: 12px;
+    margin-top: 23px;
     overflow: hidden;
 }
 
@@ -2946,6 +2950,7 @@
     /* border:1px solid white; */
     text-align: center;
     margin-top: 12px;
+    padding: 1px;
 }
 
 .end-head h1 {
@@ -3624,26 +3629,26 @@
         }
 
         25% {
-            margin-left: -90%;
+            margin-left: -100%;
         }
 
         37% {
-            margin-left: -180%;
+            margin-left: -200%;
         }
 
         50% {
-            margin-left: -270%;
+            margin-left: -200%;
         }
 
         62% {
-            margin-left: -270%;
+            margin-left: -200%;
         }
 
         75% {
-            margin-left: -90%;
+            margin-left: -100%;
         }
         87% {
-            margin-left: -90%;
+            margin-left: -100%;
         }
         100% {
             margin-left: 0;
